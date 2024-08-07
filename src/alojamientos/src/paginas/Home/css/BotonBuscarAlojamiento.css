@@ -1,0 +1,69 @@
+/* Contenedor principal */
+.seccion-form-busqueda {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra los elementos horizontalmente */
+  text-align: center;
+  padding: 20px;
+}
+
+/* Botón de búsqueda */
+.boton-alquileres-temporales {
+  background-color: #333c3c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 400px;
+  height: 50px;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  top: -30px;
+  left: 230px;
+}
+
+.boton-alquileres-temporales:hover {
+  background-color: #444d4d;
+}
+
+/* Texto */
+.text {
+  font-weight: normal;
+  font-size: 35px;
+  color: #000;
+  margin: 0;
+  position: absolute;
+  top: -200%; /* Ajustar según sea necesario */
+  left: 32%; /* Ajustar según sea necesario */
+  transform: translate(-50%, -50%); /* Centrar en el contenedor */
+  z-index: 50;
+}
+
+.textResaltado {
+  font-weight: bold;
+  font-size: 38px;
+  color: #000;
+}
+
+/* Imagen */
+#casitaPortada {
+  position: absolute;
+  bottom: -68px; /* Ajustar según sea necesario */
+  right: 200px; /* Ajustar según sea necesario */
+  border-top-left-radius: 120px;
+  border-bottom-right-radius: 120px;
+  overflow: hidden; /* Para asegurar que la imagen no se salga del contenedor */
+}
+
+#casitaPortada img {
+  width: 38vw;
+  height: 45vh;
+  background-color: #070606;
+  z-index: 30;
+}

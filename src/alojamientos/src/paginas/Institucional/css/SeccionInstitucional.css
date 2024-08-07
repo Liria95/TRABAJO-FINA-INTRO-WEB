@@ -1,0 +1,27 @@
+/* Estilos de la sección institucional */
+.seccion-institucional {
+    width: 80%;
+    margin: 150px;
+  }
+  
+  /* Ajuste para los párrafos dentro de la sección institucional */
+  .seccion-institucional p {
+    max-width: calc(80% - 45px - 55px); /* Ancho de las barras azules */
+    margin: 20px  auto; /* Centrar el texto */
+    padding: 0 20px; /* Agregar un espacio entre el texto y las barras */
+  }
+  
+  /* Estilos para títulos secundarios */
+  h3 {
+    background-color: #333C3C;
+    color: #ECA555;
+    width: 70vw;
+    margin: auto;
+    padding: 16px;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+    bottom: 35px;
+    top: 10px;
+  }
+  

@@ -1,0 +1,58 @@
+.barraNavegacion {
+  margin: 0;
+  background-color: #A25733;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  width: 85vw;
+}
+
+.barraNavegacion ul {
+  align-content: center;
+  border-bottom-color: #ece4dd;
+  border-bottom-style: solid;
+  position: relative; 
+}
+
+.logoYMenu {
+  display: flex;
+  align-items: center;
+}
+
+.logoBarra {
+  position:absolute;
+  left: 390px;
+  top: 22px;
+  width: 80px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.barraNavegacion li {
+  display: inline-block;
+  color: black;
+  margin: 5px;
+  padding: 20px;
+}
+
+.barraNavegacion li:hover {
+  background-color: #ece4dd;
+  border-radius: 30px;
+  color: #A25733;
+}
+
+.barraNavegacion a {
+  color: white;
+  text-decoration: none;
+}
+
+.barraNavegacion a:hover {
+  color: #A25733;
+  font-weight: bold;
+}

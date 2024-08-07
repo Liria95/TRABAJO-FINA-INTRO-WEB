@@ -1,0 +1,27 @@
+.presentacionIntro {
+  position: relative;
+  box-sizing: border-box;
+  padding: 100px 15%; 
+  margin: 0 auto; 
+}
+
+.tituloContenedor {
+  position: relative;
+  background-color: #ECE4DD;
+  width: 100%;
+  padding: 20px 0; 
+  overflow: hidden; 
+}
+
+.titulo {
+  font-weight: bolder;
+  margin: 0;
+}
+
+.parrafo {
+  padding: 10px 0 40px; /* Espaciado inferior */
+}
+
+.textoResaltado2 {
+  font-weight: bold;
+}
